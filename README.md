@@ -259,6 +259,13 @@ str = typeOf( new Person2() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/constructor-name`][@stdlib/utils/constructor-name]: determine the name of a value's constructor.
+-   [`@stdlib/utils/native-class`][@stdlib/utils/native-class]: determine the specification defined classification of an object.
+
 </section>
 
 <!-- /.related -->
@@ -319,6 +326,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-type-of/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
+
+[@stdlib/utils/native-class]: https://github.com/stdlib-js/utils-native-class
+
+<!-- </related-links> -->
 
 </section>
 

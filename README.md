@@ -24,32 +24,30 @@ limitations under the License.
 
 > Determine a value's type.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-type-of
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-typeOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.typeOf;
-})();
-</script>
+var typeOf = require( '@stdlib/utils-type-of' );
 ```
 
 #### typeOf( value )
@@ -126,24 +124,19 @@ str = typeOf( 5 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int8@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int16@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8c@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float32Array = require( '@stdlib/array-float32' );
+var Float64Array = require( '@stdlib/array-float64' );
+var Int8Array = require( '@stdlib/array-int8' );
+var Int16Array = require( '@stdlib/array-int16' );
+var Int32Array = require( '@stdlib/array-int32' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var Uint8ClampedArray = require( '@stdlib/array-uint8c' );
+var Uint16Array = require( '@stdlib/array-uint16' );
+var Uint32Array = require( '@stdlib/array-uint32' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
+var Symbol = require( '@stdlib/symbol-ctor' );
+var typeOf = require( '@stdlib/utils-type-of' );
 
 var str = typeOf( 'a' );
 // returns 'string'
@@ -264,11 +257,6 @@ var Person2 = function () {
 };
 str = typeOf( new Person2() );
 // returns ''
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -355,14 +343,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/utils-type-of/tree/deno
 [umd-url]: https://github.com/stdlib-js/utils-type-of/tree/umd
 [esm-url]: https://github.com/stdlib-js/utils-type-of/tree/esm
+[branches-url]: https://github.com/stdlib-js/utils-type-of/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-type-of/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name/tree/umd
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
 
-[@stdlib/utils/native-class]: https://github.com/stdlib-js/utils-native-class/tree/umd
+[@stdlib/utils/native-class]: https://github.com/stdlib-js/utils-native-class
 
 <!-- </related-links> -->
 

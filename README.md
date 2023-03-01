@@ -271,8 +271,8 @@ str = typeOf( new Person2() );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/constructor-name`][@stdlib/utils/constructor-name]</span><span class="delimiter">: </span><span class="description">determine the name of a value's constructor.</span>
--   <span class="package-name">[`@stdlib/utils/native-class`][@stdlib/utils/native-class]</span><span class="delimiter">: </span><span class="description">determine the specification defined classification of an object.</span>
+-   <span class="package-name">[`@stdlib/utils-constructor-name`][@stdlib/utils/constructor-name]</span><span class="delimiter">: </span><span class="description">determine the name of a value's constructor.</span>
+-   <span class="package-name">[`@stdlib/utils-native-class`][@stdlib/utils/native-class]</span><span class="delimiter">: </span><span class="description">determine the specification defined classification of an object.</span>
 
 </section>
 

@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/type-of"
-click B href "https://github.com/stdlib-js/utils-type-of/tree/main"
-click C href "https://github.com/stdlib-js/utils-type-of/tree/production"
-click D href "https://github.com/stdlib-js/utils-type-of/tree/esm"
-click E href "https://github.com/stdlib-js/utils-type-of/tree/deno"
-click F href "https://github.com/stdlib-js/utils-type-of/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/type-of"
+%% click B href "https://github.com/stdlib-js/utils-type-of/tree/main"
+%% click C href "https://github.com/stdlib-js/utils-type-of/tree/production"
+%% click D href "https://github.com/stdlib-js/utils-type-of/tree/esm"
+%% click E href "https://github.com/stdlib-js/utils-type-of/tree/deno"
+%% click F href "https://github.com/stdlib-js/utils-type-of/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/type-of

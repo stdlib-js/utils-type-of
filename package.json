@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/utils-constructor-name": "^0.1.0",
-    "@stdlib/utils-global": "^0.1.0"
+    "@stdlib/utils-global": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.0.6",

@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@deno/mod.js';
+import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.1.0-deno/mod.js';
 ```
 
 #### typeOf( value )
@@ -131,7 +131,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
-import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@deno/mod.js';
+import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.1.0-deno/mod.js';
 
 var str = typeOf( 'a' );
 // returns 'string'

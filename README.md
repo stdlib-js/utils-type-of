@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-type-of/tags). For example,
+
+```javascript
 import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.1.1-deno/mod.js';
 ```
 
@@ -131,7 +136,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@deno
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@deno/mod.js';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@deno/mod.js';
-import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.1.1-deno/mod.js';
+import typeOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@deno/mod.js';
 
 var str = typeOf( 'a' );
 // returns 'string'

@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+typeOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-type-of/tags). For example,
+
+```javascript
 typeOf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.2.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var typeOf = require( 'path/to/vendor/umd/utils-type-of/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -158,7 +163,7 @@ str = typeOf( 5 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-type-of@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

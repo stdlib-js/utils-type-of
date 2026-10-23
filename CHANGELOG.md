@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-10-23)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`a9c5844`](https://github.com/stdlib-js/stdlib/commit/a9c5844dafa15737aaf319baed5cc2a894d6c261) - **docs:** add missing JSDoc examples in `utils/type-of` [(#16295)](https://github.com/stdlib-js/stdlib/pull/16295) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
